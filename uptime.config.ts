@@ -25,10 +25,19 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://aifadain-moontv.hf.space',
-      tooltip: 'My production server monitor',
+      tooltip: '影视库',
       statusPageLink: 'https://aifadain-moontv.hf.space',
       timeout: 10000,
     },
+{
+  id: 'my-dl', 
+  name: '代理', 
+  method: 'GET',
+  target: 'https://aifadain-dltts.hf.space', 
+  tooltip: '代理服务可用性监控',
+  statusPageLink: 'https://aifadain-dltts.hf.space',
+  timeout: 10000, 
+}
   ],
   notification: {
     // [Optional] apprise API server URL
