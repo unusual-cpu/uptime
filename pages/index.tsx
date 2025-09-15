@@ -70,23 +70,21 @@ export default function Home({
         )}
 
         <Divider mt="lg" />
-        <Text size="xs" mt="xs" mb="xs" style={{
-          textAlign: 'center'
-        }}>
-          Open-source monitoring and status page powered by{' '}
-          <a href="https://github.com/amclubs/am-uptime-flare" target="_blank">
-            UptimeFlare
-          </a>{' '}
-          and{' '}
-          <a href="https://www.cloudflare.com/" target="_blank">
-            Cloudflare
-          </a>
-          , made with ❤ by{' '}
-          <a href="https://github.com/amclubs" target="_blank">
-            amclubs
-          </a>
-          .
-        </Text>
+       <Text size="xs" mt="xs" mb="xs" style={{ textAlign: 'center' }}>
+  开源监控与状态页面由{' '}
+  <a href="https://github.com/amclubs/am-uptime-flare" target="_blank">
+    UptimeFlare
+  </a>{' '}
+  和{' '}
+  <a href="https://www.cloudflare.com/" target="_blank">
+    Cloudflare
+  </a>
+  提供支持，由{' '}
+  <a href="https://github.com/amclubs" target="_blank">
+    amclubs
+  </a>
+  精心开发。  // 原：'Open-source monitoring and status page powered by...'
+</Text>
       </main>
     </>
   )
